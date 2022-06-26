@@ -14,12 +14,11 @@ const (
 type PAN string
 
 type Card struct {
-	ID int
-	PAN PAN
-	Balance Money
-	MinBalance Money
+	ID       int
+	PAN      PAN
+	Balance  Money
 	Currency Currency
-	Color string
-	Name string
+	Color    string
+	Name     string
 	Activity bool
 }
